@@ -1,0 +1,36 @@
+.resume-aside-one {
+    width: 36%;
+    min-height: 400px;
+    background-color: #CFD0D5;
+}
+
+.resume-aside-one h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.resume-aside-one header {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #272A31;
+    text-align: center;
+}
+
+.resume-aside-one header img {
+    width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.resume-aside-one address {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.resume-aside-one__body {
+    padding: 40px 20px 6px 30px;
+}
+
+.resume-aside-one__section {
+    margin-bottom: 30px;
+}

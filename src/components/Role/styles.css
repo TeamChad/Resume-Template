@@ -1,0 +1,29 @@
+.resume-role {
+    position: relative;
+    top: 50px;
+    margin-bottom: 30px;
+    opacity: 0;
+    transition-property: top, opacity;
+    transition-duration: 0.8s;
+    transition-delay: 0.2s;
+    transition-timing-function: cubic-bezier(0.770,  0.000, 0.175, 1.000); /* ease-in-out-quart */
+}
+
+.app-ready .resume-role {
+    top: 0;
+    opacity: 1;
+}
+
+.resume-role h4 {
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.resume-role h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.6;
+}

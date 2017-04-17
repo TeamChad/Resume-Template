@@ -1,0 +1,11 @@
+/* Shared
+   ========================================================================== */
+
+.resume {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+@page {
+    margin: 0;
+}
